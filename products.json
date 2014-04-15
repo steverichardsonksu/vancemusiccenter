@@ -1,0 +1,92 @@
+[
+  {
+    "id":1,
+    "prod-category":"Guitars and Amps",
+    "product":"Classical Guitars",
+    "info":"Tattooed swag Odd Future Carles you probably haven't heard of them selvage, iPhone semiotics kitsch gentrify YOLO Truffaut sustainable."
+  },
+  {
+    "id":2,
+    "prod-category":"Guitars and Amps",
+    "product":"Acoustic Guitars",
+    "info":"Tumblr ennui selfies American Apparel next level Williamsburg. Vegan plaid raw denim kogi Williamsburg."
+  },
+  {
+    "id":3,
+    "prod-category":"Guitars and Amps",
+    "product":"Electric Guitars",
+    "info":"McSweeney's salvia authentic selvage, craft beer pug +1 pop-up American Apparel kogi polaroid Portland meggings kitsch Wes Anderson."
+  },
+  {
+    "id":4,
+    "prod-category":"Guitars and Amps",
+    "product":"Guitar Amps",
+    "info":"Drinking vinegar Truffaut Pinterest master cleanse, bicycle rights vinyl selfies forage before they sold out. Intelligentsia dreamcatcher quinoa, High Life."
+  },
+  {
+    "id":5,
+    "prod-category":"Drums and Percussion",
+    "product":"Drum Sets",
+    "info":"Brooklyn fap biodiesel Williamsburg meggings. Actually 3 wolf moon direct trade gentrify try-hard."
+  },
+  {
+    "id":6,
+    "prod-category":"Drums and Percussion",
+    "product":"Drum Accessories",
+    "info":"Marfa Pinterest mustache, farm-to-table kitsch beard put a bird on it biodiesel McSweeney's food truck 90's fanny pack cornhole."
+  },
+  {
+    "id":7,
+    "prod-category":"Drums and Percussion",
+    "product":"Cymbals",
+    "info":"Craft beer 90's post-ironic lomo you probably haven't heard of them, Truffaut DIY YOLO asymmetrical iPhone chia cred High Life."
+  },
+  {
+    "id":8,
+    "prod-category":"Drums and Percussion",
+    "product":"Hand Percussions",
+    "info":"Actually 3 wolf moon direct trade gentrify try-hard. Keffiyeh occupy put a bird on it, hashtag Banksy Echo Park."
+  },
+  {
+    "id":9,
+    "prod-category":"Strings and Winds",
+    "product":"Strings and Winds",
+    "info":"Actually 3 wolf moon direct trade gentrify try-hard. Keffiyeh occupy put a bird on it, hashtag Banksy Echo Park."
+  },
+  {
+    "id":10,
+    "prod-category":"Piano and Keyboards",
+    "product":"Electric Pianos",
+    "info":"Messenger bag sriracha lo-fi, pickled ugh Tumblr Williamsburg 3 wolf moon High Life viral craft beer wolf kale chips Truffaut vegan."
+  },
+  {
+    "id":11,
+    "prod-category":"Piano and Keyboards",
+    "product":"Acoustic Pianos",
+    "info":"Chia whatever occupy Portland roof party farm-to-table polaroid, lo-fi pop-up. Sriracha DIY hella seitan Tumblr, pickled bitters. Before they sold out synth kogi stumptown polaroid."
+  },
+  {
+    "id":12,
+    "prod-category":"Folk Instruments",
+    "product":"Folk Instruments",
+    "info":"Mixtape ugh stumptown, sustainable wolf street art flexitarian master cleanse sriracha selvage VHS tousled Vice craft beer."
+  },
+  {
+    "id":13,
+    "prod-category":"PA and Recording",
+    "product":"Professional Audio",
+    "info":"Echo Park High Life scenester fingerstache tousled jean shorts hoodie cred, Brooklyn narwhal tofu polaroid."
+  },
+  {
+    "id":14,
+    "prod-category":"PA and Recording",
+    "product":"Microphones",
+    "info":"Kogi you probably haven't heard of them mlkshk roof party scenester locavore lomo before they sold out viral, sartorial Marfa."
+  },
+  {
+    "id":15,
+    "prod-category":"Accessories",
+    "product":"Accessories",
+    "info":"Cosby sweater Shoreditch mlkshk mustache, literally Austin hoodie keffiyeh Tonx Echo Park raw denim viral banh mi next level small batch."
+  }
+]
