@@ -3,6 +3,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html{
 	min-height: 100%;
+	
+	background: white;
+	position: absolute;
 }
 
 body{
@@ -18,10 +21,13 @@ body{
 	float: left;
 }
 
-.calibri{
-	font-family: calibri, sans-serif;
+.economica{
+	font-family: economica, sans-serif;
 }
 
+.magra{
+	font-family: magra, sans-serif;
+}
 
 
 
@@ -32,11 +38,11 @@ body{
 
 .nav{
 	position: fixed;
-	top: 0;
+	top: .5em;
 	height: 6em;
 	width: 100%;
-	background: #444444;
-	opacity: .8;
+	background-color: #222222;
+	background-color: hsla(0, 100%, 0%, .6);
 	min-width: 46.125em;
 }
 
@@ -49,13 +55,14 @@ body{
 
 .nav_container{
 	height: inherit;
-	width: 30em;
+	width: 35em;
 }
 
 .nav_contact{
 	display: inline;
 	color: white;
 	margin: .75em 2em 0 0;
+	font-size: 1.25em
 }
 
 .nav_contact_item{
@@ -65,19 +72,19 @@ body{
 }
 
 .last_contact_item{
-	margin-right: 1.25em;
+	margin-right: 3.2em;
 }
 
 .nav_list{
 	display: inline;
 	height: 2em;
+	font-size: 1.75em;
 }
 
 .nav_item{
 	display: inline;
 	float: right;
-	font-size: 1.25em;
-	margin: 1.25em .75em;
+	margin: .6em .75em;
 }
 
 .nav_item a{
@@ -134,6 +141,12 @@ body{
 /* Lessons Section */
 
 /* Lessons Section End */
+
+
+
+
+
+
 
 
 /* Contact Section */
