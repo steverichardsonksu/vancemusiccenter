@@ -36,8 +36,8 @@ body{
 	height: 6em;
 	width: 100%;
 	background: #444444;
-	min-width: 79em;
 	opacity: .8;
+	min-width: 46.125em;
 }
 
 .nav_logo{
@@ -94,10 +94,6 @@ body{
 	height: 200em;
 }
 
-.background_img{
-	width: 100%;
-}
-
 /* Nav Section End */
 
 
@@ -112,11 +108,12 @@ body{
 /* Home Section */
 
 #home{
-	height: 50em;
+	width: 100%;
+	min-width: 46.125em;
 }
 
 .home_bkg{
-	height: inherit;
+	width: inherit;
 }
 
 /* Home Section End */
