@@ -3,6 +3,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html{
 	min-height: 100%;
+	
+	background: white;
+	position: absolute;
 }
 
 body{
@@ -18,8 +21,12 @@ body{
 	float: left;
 }
 
-.calibri{
-	font-family: calibri, sans-serif;
+.economica{
+	font-family: economica, sans-serif;
+}
+
+.magra{
+	font-family: magra, sans-serif;
 }
 
 
@@ -27,60 +34,121 @@ body{
 
 
 
-
-/* Index Page */
+/* Nav Section */
 
 .nav{
 	position: fixed;
-	top: 0;
-	height: 5em;
+	top: .5em;
+	height: 6em;
 	width: 100%;
-	background: #444444;
-	min-width: 960px;
+	background-color: #222222;
+	background-color: hsla(0, 100%, 0%, .6);
+	min-width: 51.25em;
 }
 
 .nav_logo{
 	float: left;
-	width: 25%;
-	height: 5em;
+	width: 15em;
+	height: inherit;
 	color: white;
 }
 
-.contact_info{
-	color: white;
-	margin-left: 1em;
+.nav_container{
+	height: inherit;
+	width: 35em;
 }
 
-.contact_item{
-	margin: .2em 0;
+.nav_contact{
+	display: inline;
+	color: white;
+	margin: .75em 2em 0 0;
+	font-size: 1.25em
+}
+
+.nav_contact_item{
+	margin: .2em .5em;
+	display: inline;
+	font-variant: small-caps;
+}
+
+.last_contact_item{
+	margin-right: 3.2em;
+}
+
+.nav_list{
+	display: inline;
+	height: 2em;
+	font-size: 1.75em;
 }
 
 .nav_item{
 	display: inline;
 	float: right;
-	font-size: 1.25em;
-	margin: 1.5em .5em;
+	margin: .6em .75em;
 }
 
 .nav_item a{
 	color: white;
 	text-decoration: none;
+	opacity: 1;
 }
 
 .last_nav_item{
-	margin-right: 1.5em
+	margin-right: 3em
 }
 
 .height_test{
 	height: 200em;
 }
 
-.background_img{
+/* Nav Section End */
+
+
+
+
+
+
+
+
+
+
+/* Home Section */
+
+#home{
 	width: 100%;
+	min-width: 46.125em;
 }
 
-/* Index Page */
+.home_bkg{
+	width: inherit;
+}
+
+/* Home Section End */
 
 
 
-/* Footer */
+
+/* Products Section */
+
+/* Products Section End */
+
+
+
+
+
+
+
+/* Lessons Section */
+
+/* Lessons Section End */
+
+
+
+
+
+
+
+
+/* Contact Section */
+
+/* Contact Section End */
