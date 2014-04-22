@@ -97,10 +97,6 @@ body{
 	margin-right: 3em
 }
 
-.height_test{
-	height: 200em;
-}
-
 /* Nav Section End */
 
 
@@ -219,5 +215,47 @@ a {
 
 
 /* Contact Section */
+
+#contact{
+	background-image:url('../images/brick.png');
+	width: 100%;
+	min-width: 46.125em;
+	height: 50em;
+}
+
+.contact_section_hdr{
+	display: block;
+	height: 4em;
+	width: 755px;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+
+.section_hdr_divider{
+	height: .4em;
+	background: black;
+	border-radius: .5em;
+	min-width: 25%;
+	margin: 1.5em 2.5em;
+}
+
+.section_divider{
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: .25em 0;
+}
+
+.contact_form{
+	display: inline-block;
+	background: white;
+	width: 55%;
+	margin: 2em 2em 0 2em;
+}
+
+.store_info{
+	display: inline-block;
+	width: 35%;
+	margin-top: 2em;
+}
 
 /* Contact Section End */
