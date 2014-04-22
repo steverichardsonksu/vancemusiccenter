@@ -130,6 +130,105 @@ body{
 
 /* Products Section */
 
+.product_background{
+	height: 825px;
+	width: 1422.5px;
+	z-index: 1;
+}
+
+
+.products_head{
+	margin-top: -717px;
+	margin-left: 581px;
+	margin-bottom: 40px;
+	font-size: 70px;
+	letter-spacing: 4px;
+	z-index: 2;
+	position: relative;
+	width: 400px;
+}
+
+.sectionbar{
+	background-color: black;
+	display: inline-block;
+	width: 325px;
+	border-radius: ;
+	height: 8.5px;
+	z-index: 2;
+}
+
+.sectionbar2{
+	background-color: black;
+	display: inline-block;
+	width: 325px;
+	border-radius: ;
+	height: 8.5px;
+	z-index: 2;
+}
+
+#productSection {
+	z-index: 2;
+	width: 75%;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	margin-left: 16.5%;
+-webkit-column-count:3; /* Chrome, Safari, Opera */
+-moz-column-count:3; /* Firefox */
+column-count:3;
+}
+
+#productSection2 {
+	z-index: 2;
+	width: 75%;
+	margin-top: 125px;
+	margin-left: 16.5%;
+	margin-right: ;
+-webkit-column-count:3; /* Chrome, Safari, Opera */
+-moz-column-count:3; /* Firefox */
+column-count:3;
+}
+
+.icon{
+	width: 175px;
+	height: 175px;
+}
+
+.blurb{
+	font-size: 26px;
+	margin-top: 8px;
+}
+
+.instruments {
+	width: 80%;	
+	margin: auto;
+}
+
+#guitars{
+	margin-left: 14.5px;
+}
+
+#drums{
+	margin-left: 2px;
+}
+
+#strings{
+	margin-left: 18px;
+}
+
+#pianos{
+	margin-left: 3.5px;
+}
+
+#folk{
+	margin-left: 15px;
+}
+
+#pa{
+	margin-left: 23px;
+	display: inline-block;
+}
+
+
 /* Products Section End */
 
 
@@ -139,75 +238,6 @@ body{
 
 
 /* Lessons Section */
-.economica{
-	font-family: economica, sans-serif;
-}
-
-.magra{
-	font-family: magra, sans-serif;
-}
-
-.lessons_background {
-	background: url(../assets/background_gray.jpg);
-}
-
-#lessons {
-	margin-top: 100px;
-}
-
-.lessons_title {
-	font-size: 70px;
-	letter-spacing: 4px;
-	color: white;
-	padding-top: 40px;
-	text-align: center;
-}
-
-a {
-	text-decoration: none;
-}
-
-.float_right a {
-	color: white;
-
-}
-
-.float_right a:visited {
-	text-decoration: none;
-	color: inherit;
-}
-
-
-
-
-#blurb {
-	color: white;
-	margin-left: 5%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
-	display: inline-block;
-	max-width: 60%;
-}
-
-.float_right {
-	font-size: 40px;
-	color: white;
-	padding: 25px;
-	float: right;
-	margin-right: 7%;
-	border: #98d0c7;
-	border-width: 5px;
-	border-style: solid;
-}
-
-.fade {
-	float: left;
-	max-width: 33.333%;
-}
-
-.bio {
-	display: none;
-}
 
 /* Lessons Section End */
 
