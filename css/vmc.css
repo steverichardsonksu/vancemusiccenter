@@ -139,6 +139,75 @@ body{
 
 
 /* Lessons Section */
+.economica{
+	font-family: economica, sans-serif;
+}
+
+.magra{
+	font-family: magra, sans-serif;
+}
+
+.lessons_background {
+	background: url(../assets/background_gray.jpg);
+}
+
+#lessons {
+	margin-top: 100px;
+}
+
+.lessons_title {
+	font-size: 70px;
+	letter-spacing: 4px;
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.float_right a {
+	color: white;
+
+}
+
+.float_right a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+
+#blurb {
+	color: white;
+	margin-left: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	display: inline-block;
+	max-width: 60%;
+}
+
+.float_right {
+	font-size: 40px;
+	color: white;
+	padding: 25px;
+	float: right;
+	margin-right: 7%;
+	border: #98d0c7;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.fade {
+	float: left;
+	max-width: 33.333%;
+}
+
+.bio {
+	display: none;
+}
 
 /* Lessons Section End */
 
