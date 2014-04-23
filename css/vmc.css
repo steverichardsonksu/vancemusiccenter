@@ -107,7 +107,7 @@ body{
 	width: inherit;
 	display: inline;
 	color: white;
-	margin: 6em 0;
+	margin: 5em 0;
 	font-size: 2.5em;
 	text-align: center;
 }
@@ -127,7 +127,7 @@ body{
 
 .product_background{
 	height: 825px;
-	width: 1422.5px;
+	width: 100%;
 	z-index: 1;
 }
 
