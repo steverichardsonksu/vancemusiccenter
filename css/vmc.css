@@ -50,6 +50,7 @@ body{
 	width: 15em;
 	height: inherit;
 	color: white;
+	text-decoration: none;
 }
 
 .nav_container{
