@@ -47,7 +47,7 @@ body{
 
 .nav_logo{
 	float: left;
-	width: 15em;
+	width: 1em;
 	height: inherit;
 	color: white;
 	text-decoration: none;
@@ -67,7 +67,7 @@ body{
 .nav_item{
 	display: inline;
 	float: right;
-	margin: .6em .75em;
+	margin: 1em .75em;
 }
 
 .nav_item a{
