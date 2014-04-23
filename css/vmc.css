@@ -96,7 +96,7 @@ body{
 	width: 100%;
 	min-width: 46.125em;
 	background: url(../images/header1.jpg) center;
-	height: 35em;
+	height: 40em;
 }
 
 .home_bkg{
@@ -105,9 +105,9 @@ body{
 
 .nav_contact{
 	width: inherit;
-	display: inline;
+	display: inline-block;
 	color: white;
-	margin: 5em 0;
+	margin: 6em auto;
 	font-size: 2.5em;
 	text-align: center;
 }
@@ -127,7 +127,7 @@ body{
 
 .product_background{
 	height: 825px;
-	width: 1422.5px;
+	width: 100%;
 	z-index: 1;
 }
 
