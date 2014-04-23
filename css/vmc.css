@@ -3,7 +3,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html{
 	min-height: 100%;
-	
 	background: white;
 	position: absolute;
 }
@@ -58,23 +57,6 @@ body{
 	width: 35em;
 }
 
-.nav_contact{
-	display: inline;
-	color: white;
-	margin: .75em 2em 0 0;
-	font-size: 1.25em
-}
-
-.nav_contact_item{
-	margin: .2em .5em;
-	display: inline;
-	font-variant: small-caps;
-}
-
-.last_contact_item{
-	margin-right: 3.2em;
-}
-
 .nav_list{
 	display: inline;
 	height: 2em;
@@ -113,11 +95,28 @@ body{
 #home{
 	width: 100%;
 	min-width: 46.125em;
+	background: url(../images/header1.jpg) center;
+	height: 35em;
 }
 
 .home_bkg{
 	width: inherit;
 }
+
+.nav_contact{
+	width: inherit;
+	display: inline;
+	color: white;
+	margin: 6em 0;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.nav_contact_item{
+	margin: .2em .5em;
+	font-variant: small-caps;
+}
+
 
 /* Home Section End */
 
