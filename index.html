@@ -23,14 +23,8 @@
 			<img class="nav_logo float_l" src="" alt="Logo">
 
 			<div class="nav_container float_r">
-				<ul class="nav_contact float_r economica">
-					<li class="nav_contact_item">812.339.0618</li>
-					<li class="nav_contact_item"> | </li>
-					<li class="nav_contact_item last_contact_item">112 W. 6th Street, Bloomington, IN</li>
-				</ul>
-
 				<ul class="nav_list float_r economica">
-					<li class="nav_item last_nav_item"><a href="#about">Contact</a></li>
+					<li class="nav_item last_nav_item"><a href="#contact">Contact</a></li>
 					<li class="nav_item"><a href="#lessons">Lessons</a></li>
 					<li class="nav_item"><a href="#products">Products</a></li>
 					<li class="nav_item"><a href="#home">Home</a></li>
@@ -39,21 +33,111 @@
 		</nav>
 
 		<section id="home">
-			<img class="home_bkg" src="images/header1.jpg">
-
+			<ul class="nav_contact float_r economica">
+				<li class="nav_contact_item">812.339.0618</li>
+				<li class="nav_contact_item">112 W. 6th Street, Bloomington, IN</li>
+			</ul>
 		</section>
 
-		<section id="products">
+		<img class="product_background" src="images/background.png">
+		<h1 class="products_head economica">PRODUCTS </h1>
+		<section class="products">
+			<div id="productSection">
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Fender Guitar">
+						<p class="blurb economica" id="guitars">Guitars &amp; Amps</p>
+					</div>
+				</div>	
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Bach Strat Trumpet">
+						<p class="blurb economica" id="drums">Drums &amp; Percussion</p>
+					</div>
+				</div>	
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Drum Set">
+						<p class="blurb economica" id="strings">Strings &amp; Winds</p>
+					</div>
+				</div>
+			</div>	
+		</section>	
+		<section class="products2">
+			<div id="productSection2">
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Fender Guitar">
+						<p class="blurb economica" id="pianos">Pianos &amp; Keyboards</p>
+					</div>
+				</div>	
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Bach Strat Trumpet">
+						<p class="blurb economica" id="folk">Folk Instruments</p>
+					</div>
+				</div>	
+				<div class="productImage">
+					<div class="instruments">
+						<img class="icon" src="images/icon.png" alt="Drum Set">
+						<p class="blurb economica" id="pa">PA &amp; Recording</p>
+					</div>
+				</div>
+			</div>	
 		</section>
 
 		<section id="lessons">
 		</section>
 
 		<section id="contact">
-		</section>
+			<div class="contact_section_hdr">
+				<div class="section_hdr_divider float_l"></div>
+				<div class="section_divider economica float_l"> CONTACT US </div>
+				<div class="section_hdr_divider float_l"></div>
+			</div>
 
-		<section class="height_test">
+			<table class="contact_form float_l">
+				<tr class="contact_name"> 
+					<td>NAME</td>
+				</tr>
+				<tr class="contact_name"> 
+					<td><input id="contact_name"></td>
+				</tr>
+				<tr class="contact_email"> 
+					<td>EMAIL</td>
+				</tr>
+				<tr class="contact_email"> 
+					<td><input id="contact_email"></td>
+				</tr>
+				<tr class="contact_subject"> 
+					<td>SUBJECT</td>
+				</tr>
+				<tr class="contact_subject"> 
+					<td><input id="contact_subject"></td>
+				</tr>
+				<tr class="contact_message"> 
+					<td>YOUR MESSAGE</td>
+				</tr>
+				<tr class="contact_message"> 
+					<td><textarea id="contact_message"></textarea></td>
+				</tr>
+			</table>
 
+			<div class="store_info flaot_r">
+				<div class="store_hours">STORE HOURS
+				</div>
+
+				<div class="store_number">812.339.0618
+				</div>
+
+				<div class="store_location">112 W. 6th Street
+					<div>Bloomington, IN</div>
+				</div>
+
+				<div class="google_maps">
+					<iframe src=""></iframe>
+				</div>
+			</div>
 		</section>
 	</body>
 </html>
