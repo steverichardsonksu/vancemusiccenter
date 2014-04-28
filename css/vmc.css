@@ -37,7 +37,6 @@ body{
 
 .nav{
 	position: fixed;
-	top: .5em;
 	height: 6em;
 	width: 100%;
 	background-color: #222222;
@@ -47,9 +46,10 @@ body{
 
 .nav_logo{
 	float: left;
-	width: 15em;
+	width: 1em;
 	height: inherit;
 	color: white;
+	text-decoration: none;
 }
 
 .nav_container{
@@ -66,7 +66,7 @@ body{
 .nav_item{
 	display: inline;
 	float: right;
-	margin: .6em .75em;
+	margin: 1em .75em;
 }
 
 .nav_item a{
@@ -96,7 +96,7 @@ body{
 	width: 100%;
 	min-width: 46.125em;
 	background: url(../images/header1.jpg) center;
-	height: 35em;
+	height: 40em;
 }
 
 .home_bkg{
@@ -105,15 +105,15 @@ body{
 
 .nav_contact{
 	width: inherit;
-	display: inline;
+	display: inline-block;
 	color: white;
-	margin: 6em 0;
+	margin: 6em auto;
 	font-size: 2.5em;
 	text-align: center;
 }
 
 .nav_contact_item{
-	margin: .2em .5em;
+	margin: .5em .5em;
 	font-variant: small-caps;
 }
 
@@ -127,7 +127,7 @@ body{
 
 .product_background{
 	height: 825px;
-	width: 1422.5px;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -183,44 +183,21 @@ column-count:3;
 column-count:3;
 }
 
-.icon{
-	width: 175px;
-	height: 175px;
+.product-icon{
+	color: #97d5cb;
+	font-size: 215px;
 }
 
 .blurb{
 	font-size: 26px;
 	margin-top: 8px;
+	text-align: center;
+	width: 100%;
 }
 
 .instruments {
 	width: 80%;	
 	margin: auto;
-}
-
-#guitars{
-	margin-left: 14.5px;
-}
-
-#drums{
-	margin-left: 2px;
-}
-
-#strings{
-	margin-left: 18px;
-}
-
-#pianos{
-	margin-left: 3.5px;
-}
-
-#folk{
-	margin-left: 15px;
-}
-
-#pa{
-	margin-left: 23px;
-	display: inline-block;
 }
 
 
@@ -233,6 +210,56 @@ column-count:3;
 
 
 /* Lessons Section */
+#lessons {
+	margin-top: 10%;
+	background: url(../assets/background_gray.jpg);
+	z-index: 1;
+	position: absolute;
+}
+
+.headline {
+	z-index: 2;
+	text-align: center;
+	word-spacing: 4px;
+	font-size: 70px;
+	position: relative;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.lessons_blurb {
+	color: white;
+	max-width: 65%;
+	margin-left: 2.5%;
+	font-size: 1em;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	float: left;
+	display: inline-block;
+}
+
+.headshots {
+	max-width: 33.333%;
+	float: left;
+
+}
+
+.bio {
+	color: white;
+	display: none;
+}
+.signup h3{
+	float: right;
+	margin-right: 7%;
+	margin-top: -3%;
+	padding: 25px;
+	font-size: 40px;
+	color: white;
+	border-style: solid;
+	border-color: #98d0c7;
+	border-width: 5px;
+}
+
 
 /* Lessons Section End */
 
