@@ -123,6 +123,10 @@ body{
 
 
 
+
+
+
+
 /* Products Section */
 
 .product_background{
@@ -167,9 +171,9 @@ body{
 	margin-top: 15px;
 	margin-bottom: 50px;
 	margin-left: 16.5%;
--webkit-column-count:3; /* Chrome, Safari, Opera */
--moz-column-count:3; /* Firefox */
-column-count:3;
+	-webkit-column-count:3; /* Chrome, Safari, Opera */
+	-moz-column-count:3; /* Firefox */
+	column-count:3;
 }
 
 #productSection2 {
@@ -178,9 +182,9 @@ column-count:3;
 	margin-top: 125px;
 	margin-left: 16.5%;
 	margin-right: ;
--webkit-column-count:3; /* Chrome, Safari, Opera */
--moz-column-count:3; /* Firefox */
-column-count:3;
+	-webkit-column-count:3; /* Chrome, Safari, Opera */
+	-moz-column-count:3; /* Firefox */
+	column-count:3;
 }
 
 .product-icon{
@@ -209,7 +213,9 @@ column-count:3;
 
 
 
+
 /* Lessons Section */
+
 #lessons {
 	margin-top: 10%;
 	background: url(../assets/background_gray.jpg);
@@ -225,12 +231,10 @@ column-count:3;
 	width: 100%;
 }
 
-
 .lessons_container{
 	width: 100%;
 	height: 12em;
 }
-
 
 .lessons_blurb {
 	color: white;
@@ -270,6 +274,7 @@ column-count:3;
 
 
 /* Lessons Section End */
+
 
 
 
