@@ -213,26 +213,48 @@ column-count:3;
 #lessons {
 	margin-top: 10%;
 	background: url(../assets/background_gray.jpg);
-	height: 40em;
+	height: 34.5em;
 }
 
 .headline {
 	z-index: 2;
+	padding-top: .5em;
 	text-align: center;
 	word-spacing: 4px;
 	font-size: 70px;
 	width: 100%;
 }
 
+
+.lessons_container{
+	width: 100%;
+	height: 12em;
+}
+
+
 .lessons_blurb {
 	color: white;
-	max-width: 65%;
+	width: 64%;
 	margin-left: 2.5%;
 	font-size: 1em;
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
-	float: left;
-	display: inline-block;
+}
+
+.signup{
+	width: 17em;
+	margin-left: 3em;
+	margin-top: 2em;
+}
+
+.signup h3{
+	margin-right: 10%;
+	padding: 25px;
+	font-size: 40px;
+	color: white;
+	border-style: solid;
+	border-color: #98d0c7;
+	border-width: 5px;
 }
 
 .headshots {
@@ -244,18 +266,6 @@ column-count:3;
 .bio {
 	color: white;
 	display: none;
-}
-
-.signup h3{
-	float: right;
-	margin-right: 7%;
-	margin-top: -3%;
-	padding: 25px;
-	font-size: 40px;
-	color: white;
-	border-style: solid;
-	border-color: #98d0c7;
-	border-width: 5px;
 }
 
 
