@@ -213,8 +213,7 @@ column-count:3;
 #lessons {
 	margin-top: 10%;
 	background: url(../assets/background_gray.jpg);
-	z-index: 1;
-	position: absolute;
+	height: 40em;
 }
 
 .headline {
@@ -222,8 +221,6 @@ column-count:3;
 	text-align: center;
 	word-spacing: 4px;
 	font-size: 70px;
-	position: relative;
-	margin-top: 5%;
 	width: 100%;
 }
 
@@ -248,6 +245,7 @@ column-count:3;
 	color: white;
 	display: none;
 }
+
 .signup h3{
 	float: right;
 	margin-right: 7%;
