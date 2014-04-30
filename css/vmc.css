@@ -251,6 +251,10 @@ body{
 	margin-top: 2em;
 }
 
+.signup a{
+	text-decoration: none;
+}
+
 .signup h3{
 	margin-right: 10%;
 	padding: 25px;
