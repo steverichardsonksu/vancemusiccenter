@@ -94,7 +94,7 @@ body{
 
 #home{
 	width: 100%;
-	min-width: 46.125em;
+	min-width: 60em;
 	background: url(../images/header1.jpg) center;
 	height: 40em;
 }
@@ -137,14 +137,12 @@ body{
 
 
 .products_head{
-	margin-top: -717px;
-	margin-left: 581px;
-	margin-bottom: 40px;
+	margin-top: -767px;
+	margin-bottom: 50px;
 	font-size: 70px;
 	letter-spacing: 4px;
 	z-index: 2;
-	position: relative;
-	width: 400px;
+	text-align: center;
 }
 
 .sectionbar{
@@ -221,16 +219,17 @@ body{
 /* Lessons Section */
 
 #lessons {
-	margin-top: 10%;
 	background: url(../assets/background_gray.jpg);
 	height: 34.5em;
 }
 
 .headline {
 	z-index: 2;
-	padding-top: .5em;
+	margin-top: 1.75em;
+	padding-top: 1.5em;
+	padding-bottom: .25em;
 	text-align: center;
-	word-spacing: 4px;
+	letter-spacing: 4px;
 	font-size: 70px;
 	width: 100%;
 }
