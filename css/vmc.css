@@ -1,4 +1,4 @@
- Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 html{
@@ -230,63 +230,78 @@ column-count:3;
 .lessons_blurb {
 	color: white;
 	max-width: 65%;
-	margin-left: 2.5%;
 	font-size: 1em;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-	float: left;
 	display: inline-block;
 }
 
-.headshots {
-	max-width: 100%;
-
-}
-.teacher{
-	max-width: 33.333%;
-	float: left;
-	position: relative;
+.lesson_topsection{
+	padding: 2.5%;
+	width: 95%;
+	height: 10em;
 }
 
-.bio {
-	color: #fff;
-	display: none;
-	background: #000;
-	position: absolute;
-	text-align: center;
-	bottom: 1em;
-}
-.signup h3{
-	float: right;
-	margin-right: 7%;
-	margin-top: -3%;
-	padding: 25px;
+.signup{
+	padding: 1em;
 	font-size: 40px;
 	color: white;
 	border-style: solid;
 	border-color: #98d0c7;
 	border-width: 5px;
+	display: inline-block;
+	margin-left: 5%;
 }
 
-.teacher:hover{
-	-webkit-filter: brightness(40%);
-	-moz-filter: brightness(40%);
-	-ms-filter: brightness(40%);
-	-o-filter: brightness(40%);
-	filter: brightness(40%);
-	opacity: .7;
-	cursor: pointer;
-	transition: opacity .5s ease;
-	-webkit-transition: opacity .5s ease; 
-	-moz-transition: opacity .5s ease; 
-	-o-transition: opacity .5s ease;
+.bio_click{
+	display: none;
 }
-	.teacher:hover h2.bio, h3.bio{
-		display: inline;
-		transition: all .5s ease;
-		-webkit-transition: all .5s ease; 
-		-moz-transition: all .5s ease; 
-		-o-transition: all .5s ease;
+
+.headshots {
+	max-width: 100%;
+}
+
+.teacher{
+	max-width: 33.333%;
+	float: left;
+	position: relative;
+	color: #000;
+	height: 422px;
+}
+
+.teacher_info {
+	visibility: hidden;
+	background: #bbb;
+	width: 408px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	padding: .5em;
+}
+
+.teacher_name{
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: .25em;
+}
+
+.teacher:hover img{
+	-webkit-filter: brightness(60%);
+	-moz-filter: brightness(60%);
+	-ms-filter: brightness(60%);
+	-o-filter: brightness(60%);
+	filter: brightness(60%);
+	opacity: .8;
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease; 
+	-moz-transition: all .5s ease; 
+	-o-transition: all .5s ease;
+}
+	.teacher:hover .teacher_info{
+		visibility: visible;
+		transition: all 1s ease;
+		-webkit-transition: all 1s ease; 
+		-moz-transition: all 1s ease; 
+		-o-transition: all 1s ease;
 	}
 
 
