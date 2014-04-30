@@ -170,7 +170,7 @@ body{
 	width: 75%;
 	margin-top: 15px;
 	margin-bottom: 50px;
-	margin-left: 16.5%;
+	margin-left: 12.5%;
 	-webkit-column-count:3; /* Chrome, Safari, Opera */
 	-moz-column-count:3; /* Firefox */
 	column-count:3;
@@ -179,12 +179,16 @@ body{
 #productSection2 {
 	z-index: 2;
 	width: 75%;
-	margin-top: 125px;
-	margin-left: 16.5%;
+	margin-top: -168px;
+	margin-left: 12.5%;
 	margin-right: ;
 	-webkit-column-count:3; /* Chrome, Safari, Opera */
 	-moz-column-count:3; /* Firefox */
 	column-count:3;
+}
+
+.products2{
+	height: 146px;
 }
 
 .product-icon{
