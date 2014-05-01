@@ -356,4 +356,139 @@ body{
 	margin-top: 2em;
 }
 
+.horizontal_rule1 {
+	height: 5px;
+	width: 250px;
+	background-color: #000000;
+	margin-left: 2em;
+	margin-top: 3em;
+	float: left;
+	margin-right: 3em;
+	border-radius: 15px;
+}
+
+.horizontal_rule2 {
+	height: 5px;
+	width: 250px;
+	background-color: #000000;
+	margin-left: 2em;
+	margin-top: 3em;
+	float: left;
+	margin-left: 3em;
+	border-radius: 15px;
+}
+
+.contact_section {
+	font-family: economica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5em;
+	float: left;
+	padding-top: .75em;
+}
+
+.store {
+	font-family: economica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	float: left;
+	padding-top: 1.2em;
+	padding-left: 3.5em;
+}
+
+.hours {
+	font-family: economica, sans-serif;
+	text-align: center;
+	font-size: 1.125em;
+	padding-top: 0em;
+	padding-left: 0em;
+	position: relative;
+	top: 55px;
+	left: -95px;
+	float: left;
+}
+
+.phone {
+	font-family: economica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+	top: 100px;
+	left: -190px;
+	float: left;
+
+}
+
+.address {
+	font-family: economica, sans-serif;
+	text-align: center;
+	font-size: 1.125em;
+	padding-top: 0em;
+	padding-left: 0em;
+	position: relative;
+	top: 102px;
+	left: -200px;
+	float: left;
+}
+
+#contact_map {
+	float: left;
+	margin-top: 7.5em;
+	margin-left: 2.5em;
+}
+
+.contact_container {
+	height: 350px;
+	width: 455px;
+	background-color: #FFFFFF;
+	clear: both;
+	float: left;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.name_field {	
+	position: relative;
+	top: 25px;
+	left: 40px;
+	height: 35px;
+	width: 375px;
+
+}
+
+.email_field {
+	position: relative;
+	top: 40px;
+	left: 40px;
+	height: 35px;
+	width: 375px;
+}
+
+.subject_field {
+	position: relative;
+	top: 55px;
+	left: 40px;
+	height: 35px;
+	width: 375px;
+}
+
+.message_field {
+	position: relative;
+	top: 70px;
+	left: 40px;
+	/*height: 500px;*/
+	width: 375px;
+}
+
+.fill_in {
+	width: 365px;
+}
+
+.contact_section_fields {
+	font-family: economica, sans-serif;	
+	font-weight: bold;
+}
+
 /* Contact Section End */
