@@ -42,7 +42,7 @@ body{
 	background-color: #222222;
 	background-color: hsla(0, 100%, 0%, .6);
 	min-width: 51.25em;
-	z-index: 1;
+	z-index: 2;
 }
 
 .nav_logo{
@@ -194,6 +194,7 @@ body{
 .flip_container{
 	-webkit-perspective: 1000; /* Chrome, Safari, Opera */
 	perspective: 1000;
+	z-index: 1;
 }
 
 	.flip_container:hover .flipper, .flip_container.hover .flipper{
