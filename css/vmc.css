@@ -137,7 +137,6 @@ body{
 .product_background{
 	height: 825px;
 	width: 100%;
-	z-index: 1;
 }
 
 
@@ -146,7 +145,6 @@ body{
 	margin-bottom: 50px;
 	font-size: 70px;
 	letter-spacing: 4px;
-	z-index: 2;
 	text-align: center;
 }
 
@@ -248,7 +246,6 @@ body{
 }
 
 .headline {
-	z-index: 2;
 	margin-top: 1.75em;
 	padding-top: 1.5em;
 	padding-bottom: .25em;
