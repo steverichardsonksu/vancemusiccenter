@@ -42,6 +42,7 @@ body{
 	background-color: #222222;
 	background-color: hsla(0, 100%, 0%, .6);
 	min-width: 51.25em;
+	z-index: 1;
 }
 
 .nav_logo{
@@ -151,10 +152,10 @@ body{
 
 .products{
 	width: inherit;
+
 }
 
 #productSection{
-	z-index: 2;
 	width: 75%;
 	margin: 15px auto 50px;
 	-webkit-column-count:3; /* Chrome, Safari, Opera */
@@ -184,14 +185,50 @@ body{
 }
 
 #productSection2 {
-	z-index: 2;
 	width: 75%;
 	margin-top: -118px;
 	margin-left: 12.5%;
-	margin-right: ;
 	-webkit-column-count:3; /* Chrome, Safari, Opera */
 	-moz-column-count:3; /* Firefox */
 	column-count:3;
+}
+
+.flip_container{
+	-webkit-perspective: 1000; /* Chrome, Safari, Opera */
+	perspective: 1000;
+}
+
+	.flip_container:hover .flipper, .flip_container.hover .flipper{
+		-ms-transform: rotateY(180deg); /* IE 9 */
+		-webkit-transform: rotateY(180deg); /* Opera, Chrome, and Safari */
+		transform: rotateY(180deg);
+	}
+
+.flip_container, .front, .back{
+	width: 15em;
+	height: 15em;
+}
+
+.flipper {
+	-webkit-transition: 0.6s; /* For Safari 3.1 to 6.0 */
+	transition: 0.6s;
+	-webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+	transform-style: perspective-3d;
+	position: relative;
+}
+
+.front, .back{
+	-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.back{
+	-ms-transform: rotateY(180deg); /* IE 9 */
+	-webkit-transform: rotateY(180deg); /* Opera, Chrome, and Safari */
+	transform: rotateY(180deg);
 }
 
 /* Products Section End */
