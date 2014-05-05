@@ -264,43 +264,81 @@ body{
 
 .lessons_blurb {
 	color: white;
-	width: 64%;
-	margin-left: 2.5%;
+	max-width: 65%;
 	font-size: 1em;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
+	display: inline-block;
+}
+
+.lesson_topsection{
+	padding: 2.5%;
+	width: 95%;
+	height: 10em;
 }
 
 .signup{
-	width: 17em;
-	margin-left: 3em;
-	margin-top: 2em;
-}
+	padding: 1em;
 
-.signup a{
-	text-decoration: none;
-}
-
-.signup h3{
-	margin-right: 10%;
-	padding: 25px;
 	font-size: 40px;
 	color: white;
 	border-style: solid;
 	border-color: #98d0c7;
 	border-width: 5px;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.bio_click{
+	display: none;
 }
 
 .headshots {
+	max-width: 100%;
+}
+
+.teacher{
 	max-width: 33.333%;
 	float: left;
-
+	position: relative;
+	color: #000;
+	height: 422px;
 }
 
-.bio {
-	color: white;
-	display: none;
+.teacher_info {
+	visibility: hidden;
+	background: #bbb;
+	width: 408px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	padding: .5em;
 }
+
+.teacher_name{
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: .25em;
+}
+
+.teacher:hover img{
+	-webkit-filter: brightness(60%);
+	-moz-filter: brightness(60%);
+	-ms-filter: brightness(60%);
+	-o-filter: brightness(60%);
+	filter: brightness(60%);
+	opacity: .8;
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease; 
+	-moz-transition: all .5s ease; 
+	-o-transition: all .5s ease;
+}
+	.teacher:hover .teacher_info{
+		visibility: visible;
+		transition: all 1s ease;
+		-webkit-transition: all 1s ease; 
+		-moz-transition: all 1s ease; 
+		-o-transition: all 1s ease;
+	}
 
 
 /* Lessons Section End */
@@ -356,6 +394,7 @@ body{
 	width: 35%;
 	margin-top: 2em;
 }
+
 
 .horizontal_rule1 {
 	height: 5px;
@@ -493,3 +532,4 @@ body{
 }
 
 /* Contact Section End */
+
